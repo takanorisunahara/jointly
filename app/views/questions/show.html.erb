@@ -16,7 +16,7 @@
       <% if @question.answered?(current_user) %>
         <%= render partial: "questions/answer", collection: @answers %>
       <% else %>
-        <h1>※質問に答えると他の人の回答を見ることが出来ます</h1>
+        <h1>※ご回答いただくと他の方の回答を見ることが出来ます</h1>
       <% end %>
     <% end %>
   </div>
